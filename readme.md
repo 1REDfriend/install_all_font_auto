@@ -9,7 +9,26 @@ This Python script is designed to extract font files from ZIP archives and organ
 
 ## Installation
 
-No installation required. Simply download or clone the script and run it using Python.
+- Creating and activating an environment You can do this by running the following on a terminal:
+  - Create environment (Your Python executable might be called python3):
+  ```python
+  python -m venv env
+  ```
+  - Activate the environment (Windows):
+  ```python
+  env\Scripts\activate.bat
+  ```
+
+- Installing PySide6
+  - Now you are ready to install the Qt for Python packages using pip. From the terminal, run the following command:
+    - For the latest version:
+      ```python
+      pip install pyside6
+      ```
+    - It is also possible to install a specific snapshot from our servers. To do so, you can use the following command:
+      ```python
+      pip install --index-url=https://download.qt.io/snapshots/ci/pyside/6.4/latest pyside6 --trusted-host download.qt.io
+      ```
 
 ## Usage
 
