@@ -7,7 +7,7 @@ This Python script is designed to extract font files from ZIP archives and organ
 - Python 3.x
 - PySide6 library (Qt for Python)
 
-## Installation
+## Installation for soure test
 
 - Creating and activating an environment You can do this by running the following on a terminal:
   - Create environment (Your Python executable might be called python3):
