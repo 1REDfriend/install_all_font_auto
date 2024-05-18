@@ -1,4 +1,5 @@
 # Font Extractor
+### install all font auto
 
 This Python script is designed to extract font files from ZIP archives and organize them into a designated folder. It provides a simple GUI interface built with Qt for selecting a folder containing ZIP files, extracting font files, and organizing them for installation.
 
